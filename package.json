@@ -1,43 +1,28 @@
 {
-  "name": "zongji",
-  "version": "0.5.1",
-  "description": "A mysql binlog listener running on Node.js",
+  "name": "@habiledgar/zongji",
+  "version": "0.5.2",
+  "description": "Maintained fork of ZongJi with MySQL 8 compatibility fixes.",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "tap --bail --no-coverage --jobs=1 test/*.js",
     "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nevill/zongji"
+    "url": "git+https://github.com/habiledgar111/zongji_order"
   },
   "keywords": [
     "mysql",
-    "binlog"
+    "binlog",
+    "cdc",
+    "replication",
+    "mysql8"
   ],
-  "author": "Nevill <nevill.dutt@gmail.com>",
+  "author": "Habil Edgar",
   "contributors": [
-    "numtel <ben@latenightsketches.com> (https://github.com/numtel)",
-    "rfanth <rfa@rfanth.com> (https://github.com/rfanth)"
+    "Nevill <nevill.dutt@gmail.com>",
+    "numtel <ben@latenightsketches.com>",
+    "rfanth <rfa@rfanth.com>"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nevill/zongji/issues"
-  },
-  "homepage": "https://github.com/nevill/zongji",
-  "engines": {
-    "node": ">= 8.0"
-  },
-  "devDependencies": {
-    "eslint": "6.8.0",
-    "tap": "14.10.7"
-  },
-  "dependencies": {
-    "big-integer": "1.6.48",
-    "iconv-lite": "0.5.1",
-    "mysql": "2.18.1"
-  }
+  "license": "MIT"
 }

@@ -1,3 +1,10 @@
+# @habiledgar/zongji
+
+Maintaned fork of zongji.
+
+## change 
+- fix random column and value (adding order)
+
 # ZongJi [![Build Status](https://travis-ci.org/nevill/zongji.svg?branch=master)](https://travis-ci.org/nevill/zongji)
 A MySQL binlog listener running on Node.js.
 
